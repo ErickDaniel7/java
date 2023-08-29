@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Informe sua renda bruta mensal"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+    />
+
+    <EditText
+        android:id="@+id/edRendaBruta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/white"
+    />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Informe seus dependentes"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        />
+
+    <EditText
+        android:id="@+id/edDependentes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/white"
+    />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Informe a sua dedução total"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+
+    />
+
+    <EditText
+        android:id="@+id/edTotalDeducoes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/white"
+    />
+
+    <Button
+        android:id="@+id/btCalcular"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Calcular"
+    />
+
+    <TextView
+        android:id="@+id/tvRendaBruta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="debugRendaBruta"
+        android:textSize="15dp"
+    />
+    <TextView
+        android:id="@+id/tvBaseCalculo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="debugRendaBruta"
+        android:textSize="15dp"
+    />
+    <TextView
+        android:id="@+id/tvImposto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="debugRendaBruta"
+        android:textSize="15dp"
+    />
+
+</LinearLayout>
